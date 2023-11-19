@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="klik.css" />
+    <title>Reservasi</title>
+  </head>
+  <body>
+    <h3 id="reservasi">R E S E R V A S I</h3>
+    <div>
+      <form action="/action_page.php">
+        <label for="fname">Nama</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Nama pemesan"
+        />
+
+        <label for="NoHp">No Hp</label>
+        <input type="text" id="nomor" name="nomor" placeholder="Isi no aktif" />
+
+        <label for="Alamat">Tempat Tinggal</label>
+        <input
+          type="text"
+          id="alamat"
+          name="alamat"
+          placeholder="Alamat pemesan"
+        />
+
+        <label for="warna">Warna Henna</label>
+        <select id="warna" name="warna">
+          <option value="white">Henna White</option>
+          <option value="nude">Henna Nude</option>
+          <option value="maroon">Henaa Maroon</option>
+        </select>
+
+        <label for="jenis">Jenis Henna</label>
+        <select id="jenis" name="jenis">
+          <option value="jenis">Henna Wedding</option>
+          <option value="jenis">Henna Lamaran</option>
+          <option value="jenis">Henaa Fun</option>
+          <option value="jenis">Henna Event</option>
+        </select>
+
+        <label for="req">Desain Henna</label>
+        <select id="req" name="req">
+          <option value="req">Request</option>
+          <option value="req">Bebas</option>
+        </select>
+
+        <label for="lname">Request Henna</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Desain henna *khusus request"
+        />
+
+        <input type="submit" value="Submit" />
+      </form>
+      <p>
+        Dalam waktu 1x24 jam moms hana henna art akan memberikan pesan
+        konfirmasi
+      </p>
+    </div>
+  </body>
+</html>

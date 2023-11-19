@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moms Hana Henna Art</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feathur Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="shortcut icon" href="images/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="henaUTS.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="Navbar">
+      <a href="#" class="navbar-logo">MomsHana<span>HennaArt</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropabout">Tentang Kami
+        </button>
+        <div class="about-content">
+          <a href="SejarahUsaha.html#sejarah">Sejarah</a>
+          <a href="tujuan.html">Tujuan</a>
+        </div>
+      </div>
+
+      <div class="navbar-nav">
+        <a href="katalogHena.html#katalog">Katalog</a>
+      </div>
+
+      <div class="navbar-nav">
+        <a href="pendaftaran.html#reservasi">Reservasi</a>
+      </div>
+
+      <div class="navbar-nav">
+        <a href="kontak.html#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="hamburger-menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+    <main class="content">
+      <br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1>Moms Hana Henna Art <br> Siap Lengkapi Hari Spesialmu</h1>
+    </main>
+    </section>
+
+      <div class="readmore">
+        <h2>Rekomendasi Desain Henna By Moms Hana</h2>
+        <br><br>
+        <p1><strong> Desain Indian bridal</strong> merupakan seni menghias tangan dan kaki 
+          pengantin wanita India dengan pola-pola yang rumit dan indah menggunakan pasta henna. 
+          Desain ini menjadi bagian penting dalam upacara pernikahan India karena memiliki 
+          makna simbolis yang dalam. <a href="IndianBridal.html">read more</a></p1>
+        <br><br><br>
+        <p1><strong>Desain mandala</strong> pada henna art seringkali menggabungkan lingkaran 
+          pusat yang dikeliling oleh pola simetris, yang bisa terdiri dari bunga-bunga, 
+          daun-daunan, motif geometris, atau elemen dekoratif lainnya. Ketika diterapkan pada 
+          tangan atau kaki, desain mandala memberikan tampilan simetris yang indah. Mandala dalam seni 
+          henna tidak hanya menghadirkan estetika visual yang menarik, namun juga memiliki makna yang 
+          dalam.<a href="modelmandala.html">read more</a></p1>
+        <br><br><br>
+        <p1><strong>Desain Arabian</strong>  Model henna art dengan desain Arabian 
+          adalah variasi yang sangat populer dalam seni henna. Desain ini memiliki 
+          ciri khas yang mencolok dengan pola-pola yang rumit, elegan, dan sering 
+          kali lebih geometris dibandingkan dengan desain henna 
+          India.<a href="SejarahHenna.html">read more</a></p1>
+        </div>
+    <!-- Hero Section End -->
+
+    <!-- Slide Show Start -->
+    <div class="slides">
+      <div class="slide">
+        <img src="images/sertif1.jpeg" alt="">
+      </div>
+      <div class="slide">
+        <img src="images/sertif2.jpeg" alt="">
+      </div>
+      <div class="slide">
+        <img src="images/sertif3.jpeg" alt="">
+      </div>
+      <div class="navigation">
+        <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
+        <a class = "next" onclick = "plusSlides(-1)">&#10095;</a>
+      </div>
+    </div>
+
+    <!-- Java Script Slide Show -->
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("slide");
+        if (n > slides.length)
+        {
+          slideIndex = 1;
+        }
+        if (n < 1)
+        {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++)
+        {
+          slides[i].style.display = "none";
+        }
+        slides[slideIndex-1].style.display = "block";
+      }
+    </script>
+    <!-- Slide Show End -->
+
+    <br><br>
+    <!-- Footer Start -->
+    <footer>
+    <div class="social">
+      <a href="https://instagram.com/moms_hana_henna_art?igshid=MTk0NTkyODZkYg=="><i data-feather="instagram"></i>IG : moms_hana_henna_art</a>
+    </div>
+
+    <div class="creatid">
+      <p>Created by <a href="">Maharsi Dyah</a> |&copy; 2023</p>
+    </div>
+    </footer>
+
+    <!-- Footer End -->
+   
+    <!-- Sidebar Start -->
+    <div class="Sidebar">
+      <a href="#owner">Owner</a>
+      <p>
+        Ratna Ika Pratiwi biasa dipanggil dengan Ana, lahir di Jakarta pada 15
+        Juni 1582. Beliau merupakan seorang anak perempuan pertama dari empat
+        bersaudara. Beliau merupakan lulusan D3 Bisnis Internasional. Beliau
+        merupakan seorang ibu rumah tangga yang memiliki dua anak laki-laki dan
+        1 anak perempuan.
+      </p>
+      <br>
+      <a href="#youtube"></a>
+      <iframe width="150" height="100" src="https://www.youtube.com/embed/GCUz0Ig9pfw?si=cM_Y4ra7mFzasRNR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!-- Sidebar End -->
+
+    
+    <!-- Feathur Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Javascript -->
+    <script src="UTS.js"></script>
+  </body>
+</html>

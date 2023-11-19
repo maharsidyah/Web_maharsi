@@ -1,0 +1,47 @@
+body {
+  background-image: url(https://img.freepik.com/free-photo/indian-wedding-bangles-mehandi-henna-coloured-hands-with-reflective-ornament_8353-9783.jpg);
+}
+
+h1 {
+  text-align: center;
+  background-color: darkred;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  color: white;
+  margin: 20px;
+}
+
+p {
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+
+#penjelasan {
+  background-color: darkred;
+  padding: 30px 40px 70px 40px;
+  border: solid;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  width: 800px;
+  height: 800px;
+  text-align: justify;
+  font-size: 10px;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  border: 2px solid rgb(255, 255, 255);
+  margin-left: 140px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+ul {
+  padding: 70px 40px 70px 40px;
+  margin-left: 20px;
+  margin-top: -90px;
+  text-align: justify;
+  font-size: 15px;
+}
